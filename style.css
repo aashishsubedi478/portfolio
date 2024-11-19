@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans:ital,wght@1,300&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(203, 192, 192);
+    /* width: 350px; */
+    font-family: 'Dancing Script', cursive;
+    height: 101.5vh;
+}
+
+.sidebar nav {
+    padding: 50px;
+    width: 25vh;
+
+}
+.sidebar nav ul {
+    width: 350px;
+    height: 100%;
+    list-style: none;
+    font-size: 30px;
+}
+.sidebar nav ul li {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    height: 95vh;
+    padding: 23px;
+    background-color: rgb(174, 210, 201);
+    display: flex;
+    width: 77.5vw;
+    margin-bottom: 50vh;
+    margin-left:px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(179, 31, 193); */
+    height: 73.5vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 144px;
+    display: flex;
+    justify-content: space around;
+}
+
+.devinfo {
+    font-family: 'Source Code Pro', monospace;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 73%;
+    left: -7%;
+    transform: translate(50%, -100%);
+}
+
+
+.hello {
+
+    font-size: 70px;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.buttons {
+    margin-top: 34px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+   
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 20px 5px;
+    cursor: pointer;
+    margin-top: 10vh;
+    display: flex;
+    width: 25vh;
+    height: 6.5vh;
+}
+
+.btn-sm {
+    text-decoration:none;
+    margin-top:20px;
+    height: 6vh;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-bottom:px;
+    width: 20vh;
+    font-family: 'Source Code Pro', monospace;
+}
+.btn-sm html{
+    margin-top: 3vh;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-left:60px;
+    width: 25vh;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;    
+}
+
+.btn:hover {
+    background-color:rgb(245, 245, 185);
+    color: black;
+}
+
+.devpic img {
+    margin:-3vh;
+    height: 60vh;
+    width: 60vh;
+    margin-top: 0vh;
+    border-radius: 50%;
+    margin-right: -3vh;
+
+}
+
+.moreabout {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform {
+    padding: 9px 38px 0px;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.contactform h1 {
+    padding: 12px 0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.buttons2{
+    padding:100px;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailhelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 17px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    text-decoration: none;
+    margin: 30px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+    font-weight:bold;
+    font-size:40px;
+
+}
+
+.intro p {
+    font-family: 'Dancing Script', cursive;
+    margin: 12px;
+    font-size:40px;
+
+
+}
+
+.skill {
+    font-weight: 900;
+    font-family: 'Source Code Pro', monospace;
+    border:2px solid black ;
+    margin: 10px;
+    width: 265px;
+    height: 6px;
+    background-color: rgb(89, 250, 78);
+}
+
+.skillcontainer {
+    padding: 20px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;    
+}
+.hundered{
+    width: 300px;
+    background-color: aqua;
+   
+}
+.t3{
+    width: 200px;
+    background-color: blueviolet;
+
+}
+.t5{
+    width: 100px;
+    background-color: red;
+}
+.math{
+    
+        width: 300px;
+        background-color: rgb(89, 250, 78);
+
+}
+.omath{
+width: 300px;
+background-color: rgb(89, 250, 78);
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 30vh;
+    font-size: 60px;
+    margin-top: 15px;
+}
